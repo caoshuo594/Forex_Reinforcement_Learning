@@ -10,7 +10,7 @@
 
 ### 1. ONNX模型
 ✅ **forex_policy.onnx** (274 KB)
-- 路径: `C:\Users\caoshuo\AppData\Roaming\MetaQuotes\Terminal\BB16F565FAAA6B23A20C26C49416FF05\MQL5\Files\forex_policy.onnx`
+- 路径: `<MT5_DATA_PATH>\MQL5\Files\forex_policy.onnx`
 - 状态: **已成功复制**
 - 大小: 280,168 字节
 - 最后更新: 2025/10/31 09:42:51
@@ -18,7 +18,7 @@
 ### 2. EA交易程序
 ✅ **ForexRLTrader.mq5** (源代码)
 ✅ **ForexRLTrader.ex5** (已编译)
-- 路径: `C:\Users\caoshuo\AppData\Roaming\MetaQuotes\Terminal\BB16F565FAAA6B23A20C26C49416FF05\MQL5\Experts\copilot_cli\RL\`
+- 路径: `<MT5_DATA_PATH>\MQL5\Experts\`
 - 状态: **已编译可用**
 
 ### 3. 支持文件
@@ -232,10 +232,9 @@ Magic = 888888           // EA标识符(不要与其他EA冲突)
 
 ### Python项目目录
 ```
-C:\Users\caoshuo\AppData\Roaming\MetaQuotes\Terminal\BB16F565FAAA6B23A20C26C49416FF05\MQL5\Experts\copilot_cli\RL\
+<PROJECT_ROOT>/
 ├── train.py                      # 训练脚本
 ├── export_onnx.py                # ONNX导出脚本
-├── analyze_training.py           # 训练分析脚本
 ├── forex_env.py                  # 交易环境
 ├── models/
 │   ├── forex_policy.onnx        # ✅ ONNX模型
@@ -243,21 +242,19 @@ C:\Users\caoshuo\AppData\Roaming\MetaQuotes\Terminal\BB16F565FAAA6B23A20C26C4941
 │   ├── best_model/              # 最佳模型
 │   └── checkpoints/             # 训练检查点
 └── logs/
-    ├── training_analysis.png    # 训练分析图
     ├── train_monitor.csv        # 训练日志
     └── eval_monitor.csv         # 评估日志
 ```
 
 ### MT5目录
 ```
-C:\Users\caoshuo\AppData\Roaming\MetaQuotes\Terminal\BB16F565FAAA6B23A20C26C49416FF05\
+<MT5_DATA_PATH>/
 ├── MQL5/
 │   ├── Files/
 │   │   └── forex_policy.onnx    # ✅ 模型文件(已部署)
 │   └── Experts/
-│       └── copilot_cli/RL/
-│           ├── ForexRLTrader.mq5  # EA源代码
-│           └── ForexRLTrader.ex5  # EA编译文件
+│       └── ForexRLTrader.mq5    # EA源代码
+│       └── ForexRLTrader.ex5    # EA编译文件
 ```
 
 ---

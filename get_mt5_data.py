@@ -19,7 +19,8 @@ def initialize_mt5():
         return False
     
     logger.info(f"MT5版本: {mt5.version()}")
-    logger.info(f"账户信息: {mt5.account_info()}")
+    # 账户信息包含敏感数据,仅在调试时启用
+    # logger.info(f"账户信息: {mt5.account_info()}")
     return True
 
 
