@@ -1,0 +1,22 @@
+{
+    "model_file": "forex_policy.onnx",
+    "input_name": "observation",
+    "input_shape": [
+        1,
+        10
+    ],
+    "input_type": "float32",
+    "input_size": 10,
+    "output_name": "action_probs",
+    "output_shape": [
+        1,
+        4
+    ],
+    "output_type": "float32",
+    "action_mapping": {
+        "0": "Hold",
+        "1": "Open Long",
+        "2": "Open Short",
+        "3": "Close Position"
+    }
+}

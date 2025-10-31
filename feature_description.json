@@ -1,0 +1,12 @@
+{
+    "feature_0": "M15_RSI (范围: 0-1)",
+    "feature_1": "M15_ATR_norm (范围: -5到5)",
+    "feature_2": "M15_MACD_hist_norm (范围: -5到5)",
+    "feature_3": "H1_RSI (范围: 0-1)",
+    "feature_4": "H1_Trend_Indicator (范围: -5到5)",
+    "feature_5": "H4_RSI (范围: 0-1)",
+    "feature_6": "H4_Trend_Indicator (范围: -5到5)",
+    "feature_7": "position_state (0=空仓, 1=多单, 2=空单)",
+    "feature_8": "floating_pnl_normalized (范围: -10到10)",
+    "feature_9": "holding_time_normalized (范围: 0-1)"
+}
